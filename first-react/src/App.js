@@ -1,5 +1,5 @@
 import "./App.css";
-import UseReducerToDo from "./Hooks/useReducer/UseReducerToDo";
+import FormCompForCustmHook from "./Hooks/customHooks/FormCompForCustmHook";
 // import Editdata from "./Hooks/Editdata";
 // import HookFormState from "./Hooks/HookFormState";
 // import FirstUseEffect from "./Hooks/useEffect/FirstUseEffect";
@@ -57,7 +57,11 @@ function App() {
         <ContextHook1></ContextHook1>
       </UserContext.Provider> */}
       {/* <UseReducer1/> */}
-      <UseReducerToDo/>
+      {/* <UseReducerToDo/> */}
+      {/* <CallBackParent /> */}
+      {/* <RefHook1></RefHook1> */}
+      {/* <RefHookTimer /> */}
+      <FormCompForCustmHook></FormCompForCustmHook>
     </div>
   );
 }

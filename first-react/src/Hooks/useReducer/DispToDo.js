@@ -10,4 +10,4 @@ function DispToDo({ todo }) {
     </div>
   );
 }
-export default DispToDo;
+export default React.memo(DispToDo);
