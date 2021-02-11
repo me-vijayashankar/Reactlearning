@@ -1,0 +1,14 @@
+.formShape  {
+  max-width: 20rem;
+  min-height: 20rem;
+  position: fixed;
+  align-items: center;
+  margin-top: 10rem;
+  margin-left: 10rem;
+  padding: 10px;
+  border: solid 2px darkgreen;
+  border-radius: 2%;
+}
+.formShape ::before{
+      border: solid 2px yellowgreen;
+}
