@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: blueviolet;
+    min-height: 10vh;
+}
+.nav-link{
+    display: flex;
+    justify-self: space-around;
+    list-style: none;
+    align-items: center;
+}
+.nav-items{
+    margin: 1vh;
+    font-weight: 600;  
+    height: 15px;
+    padding: 5px;
+    /* border: solid white 1px;
+    border-radius: 10%; */
+      
+}
